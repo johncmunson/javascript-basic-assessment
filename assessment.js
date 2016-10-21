@@ -37,7 +37,7 @@ var myOtherShirt = {
 	type: 'polo',
 	color: 'red'
 };
-myOtherShirt.type = 'spandex';
+myOtherShirt['type'] = 'spandex';
 
 // #5 Create an object that tracks a count of animals in a zoo.  Call it 'zoo'
 // The key should be the animal name(string) and the value should be how many there are.
